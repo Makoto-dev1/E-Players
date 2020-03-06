@@ -35,24 +35,28 @@ a{
     max-width: 1200px;
     margin: 0 auto;  
 }
+
 header .container{
     display: flex;
     padding: 20px 0;
     justify-content: space-between;
 }
+
 header ul{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     flex-flow: wrap;
 }
+
 header nav{
     width: 60%;
-
 }
+
 header a{
     text-transform: uppercase;
 }
+
 header img{
     margin-right: 100px;
 }
@@ -70,35 +74,48 @@ header img{
     background: linear-gradient(to bottom, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422c5a', endColorstr='#100f11', GradientType=0 );
 }
+
 .partidas .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.proximas_partidas{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    flex-flow: wrap;
 }
 .partida{
-    padding: 0, 0, 10px, 0;
+    padding: 0 0 10px 0;
 }
+
 .partida i{
     margin-right: 5px;
 }
+
 .partida img{
     width: 40px;
     padding: 0 10px;
 }
+
 .partida h2{
     font-size: 14px;
     text-align: start;
     padding: 10px 0;
 }
+
 .partida div{
     display: flex;
     align-items: center;
     padding: 10px 0;
 }
+
 .red{
     color: red;
 }
+
 .banner{
     width: 100%;
     height: 400px;
@@ -109,12 +126,13 @@ header img{
     justify-content: center;
     align-items: center;
 }
+
 .ligas{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 .ligas img{
     height: 140px;
 
@@ -130,9 +148,11 @@ header img{
     text-transform: uppercase;
     line-height: 40px;
 }
+
 .ligas div{
     margin-bottom: 35px;
 }
+
 .sobre_fundo{
     background-image: url("../img/Imagens/Teams/T6.jpg");
     background-position: center;
@@ -141,8 +161,8 @@ header img{
     width: 100%;
     min-height: 700px;
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
- 
 }
+
 .sobre_fundo_filtro{
     display: flex;
     justify-content: flex-end;
@@ -150,13 +170,14 @@ header img{
     width: 100%;
     height: 100%;
     background-color: rgba(114, 120, 195, 0.5);
-
 }
+
 .sobre{
     position: relative;
     display: flex   ;
 
 }
+
 .sobre img{
     position: absolute;
     z-index: 99;
@@ -165,23 +186,28 @@ header img{
     width: 100%;
     max-width: 35%;
 }
+
 .texto_sobre{
     width: 40%;
     margin-right: 350px;
     text-align: right;
     text-shadow: 0px 3px 3px #000000;
 }
+
 .texto_sobre h2{
     margin-bottom: 2em;
 }
+
 .content{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
 }
+
 .content section{
-    width: 60%;
+    width: 70%;
 }
+
 .card{
     width: 100%;
     margin-bottom: 2em;
@@ -191,49 +217,58 @@ header img{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 30%, rgba(30,28,33,1) 100%);
 }
+
 .card img{
     width: 180px;
     height: 220px;
     object-fit: cover; 
-
 }
+
 .card div{
     padding: 2em;
 }
+
 .card div:hover{
     background-color: var(--blue);
     color: var(--background);
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
+
 .content h3{
     text-transform: uppercase;
     padding: 1em 0;
     font-size: 1.8em;
 }
+
 .content article{
     width: 25%;
 }
+
 .resultados_box{
     padding: 1em;
-    box-shadow: 0px 3px 10px #000;
-    
+    box-shadow: 0px 3px 10px #000;    
 }
+
 .resultado{
     text-align: center;
 }
+
 .resultado div{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
 .resultado img{
     width: 30px;
 }
+
 .resultado p{
     font-size: 1.39em;
     margin: 1.2em 0;
 }
+
 footer{
     background-color: black;
     box-shadow: 0px -6px 10px #000;
@@ -242,25 +277,31 @@ footer{
     height: 250px;
     padding: 2em 0;
 }
+
 footer .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 footer nav h3{
     font-size: 1.6em;
     color: #646464;
     margin-bottom: 1em;
 }
+
 footer nav ul{
     list-style-type: none;
 }
+
 footer nav li{
     margin-bottom: 0.5em;
 }
+
 footer nav a:hover{
     border-bottom: solid 1px var(--purple);
 }
+
 /*confg icones*/
 .sociais{
     display: flex;
@@ -268,6 +309,7 @@ footer nav a:hover{
     font-size: 3em;
     margin-top: 0.5em;
 }
+
 .sociais i{
     background: linear-gradient(to top, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
     -webkit-background-clip: text;
@@ -280,6 +322,7 @@ footer form{
     display: flex;
     flex-direction: column;
 }
+
 footer form label{
     font-size: 1.8em;
     font-weight: bolder;
@@ -292,6 +335,7 @@ footer form input{
     outline: none;
     padding: 1px;
 }
+
 .btn{
     color: white;
     border: none;
@@ -299,10 +343,12 @@ footer form input{
     padding: 0.65em 2em;
     cursor: pointer;
 }
+
 footer p{
     text-align: center;
     color: #646464;
 }
+
 /*inicio pag cadastro*/
 .banner_cadastro{
     width: 100%;
@@ -314,10 +360,12 @@ footer p{
     background-size:cover;
     background-position: bottom;
 }
+
 .banner_cadastro h1{
     font-size: 3em;
     text-transform: uppercase;
 }
+
 /*formulario*/
 .form_cadastro{
     width: 100%;
@@ -326,6 +374,7 @@ footer p{
     box-shadow: 0px 3px 10px #000, -1px -6px 10px #00fff0;    
     padding: 1.5em ;
 }
+
 .campo{
     display: flex;
     margin-bottom: 0.5em;
@@ -334,6 +383,7 @@ footer p{
 .campo label{
     text-transform: uppercase;
 }
+
 input[type="text"],
 input[type="password"],
 .campo input[type="email"],
@@ -346,21 +396,79 @@ select{
     border-bottom: solid 1px #7278C3;
     color: #ccc;
 }
+
 .campo input:focus{
     background-color: #2f2f2f;
 }
+
 .campo fieldset{
     border: none;
 }
+
 .campo fieldset label{
     margin: 2em 1em 2em 0;
 }
+
 .termos{
     justify-content: unset;
 }
+
 .termos input{
     margin-right: 0.5em;
 }
+
 .form_cadastro .campo:nth-child(10) button{
     margin: auto;
 }
+/*Inicio responsividade*/ 
+/* 800px */
+
+@media (max-width: 800px){
+    .container{
+    width: 95%;               
+    }
+    header .container img{
+        max-width: 180px;
+    }
+    .partidas .container{
+        align-items: flex-start;
+        flex-flow: nowrap;
+    }
+    .em_andamento{
+        width: 30%;
+    
+    }
+    .proximas_partidas{
+        width: 70%;
+        flex-flow: wrap;
+    }
+    .ligas h4{
+        font-size: 30px;
+    }
+    .ligas h3{
+        font-size: 90px;
+    }
+    .ligas img{
+        height: 90px;
+    }
+    .sobre img{
+        max-width: 55%;
+        left: 10px;
+        margin-top: 75px;
+    }
+    .texto_sobre{
+        width: 50%;
+        margin-right: 30px;
+    }
+    .content{
+        margin-top: 30px;
+    }
+    .card img{
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+    .resultados p{
+        margin-top: 0.5em;
+    }
+    
+}/*Fim media Query 800px*/
